@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#372633">
+  <meta name="description" content="A little handmade birthday world full of memories, wishes and love.">
+  <title>The Heart-Shaped Album ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="album" >
+  <div class="ambient-glow glow-one" aria-hidden="true"></div><div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <header class="topbar">
+  <nav class="nav-shell" aria-label="Birthday website navigation">
+    <a class="brand" href="index.html" aria-label="Birthday home"><span class="brand-mark">♡</span><span>BDAY <i>WORLD</i></span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link home-link">⌂ Home</a>
+      <a href="countdown.html" class="nav-link" data-nav="countdown">🎂 Countdown</a>
+      <a href="gift.html" class="nav-link" data-nav="gift">🎁 Gift</a>
+      <a href="locket.html" class="nav-link" data-nav="locket">💗 Locket</a>
+      <a href="letter.html" class="nav-link" data-nav="letter">💌 Letter</a>
+      <a href="album.html" class="nav-link" data-nav="album">♡ Heart Album</a>
+      <a href="game.html" class="nav-link" data-nav="game">🎮 Game</a>
+    </div>
+  </nav>
+  <div class="nav-hint" id="navHint">Discover a chapter and it will stay in this menu ✨</div>
+</header>
+  <main class="page-wrap">
+<section class="content-width inner-page album-page">
+  <div class="page-heading"><p class="eyebrow">CHAPTER 04 · THE MEMORY KEEPSAKE</p><h1>A heart full of moments <span class="script-title">held close</span> ♡</h1><p>Inspired by your reference: a heart of little Polaroids, two secret envelopes, a photo in the centre, and a pink ribbon trailing to a tiny heart.</p></div>
+  <div class="album-legend"><span><i class="legend-dot photo-dot"></i> 5 photos</span><span><i class="legend-dot video-dot"></i> 2 videos</span><span><i class="legend-dot note-dot"></i> little wishes</span></div>
+  <section class="heart-album-panel">
+    <div class="album-top-label"><span>THE MEMORY COLLECTION</span><b>♡</b><span>11 · OCTOBER</span></div>
+    <div class="heart-canvas" id="heartCanvas" aria-label="Heart shaped photo album with fifteen polaroid-style frames">
+      <svg class="silk-ribbon" viewBox="0 0 800 850" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="silkPink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd7e6"/><stop offset=".48" stop-color="#ff7fb6"/><stop offset="1" stop-color="#ffbfd7"/></linearGradient><filter id="ribbonGlow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M365 35 C415 -2 465 57 510 36 C560 11 588 25 633 62 C692 106 744 85 752 145 C763 206 713 219 742 277 C771 332 735 373 757 423 C783 480 740 523 716 564 C689 611 717 665 668 698 C643 714 647 758 616 781 C598 796 604 817 628 831" fill="none" stroke="url(#silkPink)" stroke-width="11" stroke-linecap="round" filter="url(#ribbonGlow)"/><path d="M365 35 C415 -2 465 57 510 36 C560 11 588 25 633 62 C692 106 744 85 752 145 C763 206 713 219 742 277 C771 332 735 373 757 423 C783 480 740 523 716 564 C689 611 717 665 668 698 C643 714 647 758 616 781 C598 796 604 817 628 831" fill="none" stroke="#fff0f6" stroke-width="3" stroke-linecap="round" opacity=".95"/><circle cx="628" cy="831" r="5" fill="#fff2f7"/><text x="628" y="850" text-anchor="middle" font-size="30" fill="#ff9fc6">♥</text></svg>
+      <div class="polaroid-ring" id="polaroidRing"></div>
+      <div class="secret-envelope envelope-sixteen" data-envelope="16" role="button" tabindex="0" aria-label="Open secret envelope number 16"><span class="envelope-num">16</span><span class="envelope-flap"></span><span class="envelope-label">a little wish</span><span class="envelope-paper">May the year ahead surprise you in the sweetest ways. ♡</span></div>
+      <div class="secret-envelope envelope-seventeen" data-envelope="17" role="button" tabindex="0" aria-label="Open secret envelope number 17"><span class="envelope-num">17</span><span class="envelope-flap"></span><span class="envelope-label">open me</span><span class="envelope-paper">Never forget how much light you bring into the world. ✧</span></div>
+      <button class="album-hero-photo" id="heroPhotoButton" type="button" aria-label="View the central album photo"><span class="hero-photo-window"><img src="assets/heart/heart-181.png" alt="Central photo in the heart-shaped album" class="media-image" data-placeholder="heroPhotoPlaceholder"><span class="image-placeholder compact-placeholder" id="heroPhotoPlaceholder"><b>♡</b><small>add hero-photo.jpg</small></span></span><span class="hero-photo-number">18</span></button>
+      <div class="ribbon-heart" aria-hidden="true">♥</div>
+    </div>
+    <p class="album-caption">A few photographs, little videos, and wishes to keep close. Tap any Polaroid to view it larger, or open the two tiny envelopes. ♡</p>
+  </section>
+  <div class="page-actions"><a class="button button-primary" href="game.html">A tiny birthday game next 🎮 <span>↗</span></a><a class="text-link" href="letter.html">← Re-read the letter</a></div>
+</section>
+<div class="media-modal" id="mediaModal" aria-hidden="true"><div class="media-modal-backdrop" data-close-modal></div><div class="media-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalCaption"><button class="modal-close" type="button" data-close-modal aria-label="Close">×</button><div id="modalContent" class="modal-content"></div><p id="modalCaption" class="modal-caption"></p></div></div></main>
+  <footer class="site-footer">made with <span>♥</span> for a very special birthday <i>·</i> 11 October 2009</footer>
+  <script src="app.js"></script>
+</body>
+</html>

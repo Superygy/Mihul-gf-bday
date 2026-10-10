@@ -1,0 +1,1 @@
+Add photo-1.jpg through photo-5.jpg, video-1.mp4, video-2.mp4, and hero-photo.jpg here. See the top-level README.txt.

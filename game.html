@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#372633">
+  <meta name="description" content="A little handmade birthday world full of memories, wishes and love.">
+  <title>Catch the Floating Hearts ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="game" >
+  <div class="ambient-glow glow-one" aria-hidden="true"></div><div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <header class="topbar">
+  <nav class="nav-shell" aria-label="Birthday website navigation">
+    <a class="brand" href="index.html" aria-label="Birthday home"><span class="brand-mark">♡</span><span>BDAY <i>WORLD</i></span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link home-link">⌂ Home</a>
+      <a href="countdown.html" class="nav-link" data-nav="countdown">🎂 Countdown</a>
+      <a href="gift.html" class="nav-link" data-nav="gift">🎁 Gift</a>
+      <a href="locket.html" class="nav-link" data-nav="locket">💗 Locket</a>
+      <a href="letter.html" class="nav-link" data-nav="letter">💌 Letter</a>
+      <a href="album.html" class="nav-link" data-nav="album">♡ Heart Album</a>
+      <a href="game.html" class="nav-link" data-nav="game">🎮 Game</a>
+    </div>
+  </nav>
+  <div class="nav-hint" id="navHint">Discover a chapter and it will stay in this menu ✨</div>
+</header>
+  <main class="page-wrap">
+<section class="content-width inner-page">
+  <div class="page-heading"><p class="eyebrow">CHAPTER 06 · A LITTLE GAME</p><h1>Catch the hearts <span class="script-title">if you can!</span> 💗</h1><p>Tap as many floating hearts as you can before the timer ends.</p></div>
+  <section class="glass-panel game-panel"><div class="game-stats"><div><span>SCORE</span><b id="score">0</b></div><div><span>TIME LEFT</span><b><span id="gameTime">20</span><small>s</small></b></div><div><span>BEST</span><b id="bestScore">0</b></div></div><div class="game-board" id="gameBoard"><div class="game-board-intro"><span>♡</span><b>Ready, birthday star?</b><small>Press start, then catch the hearts.</small></div></div><button class="button button-primary" id="startGame" type="button">♡ Start the game</button><p class="game-result" id="gameResult" aria-live="polite">Every heart counts!</p></section>
+  <div class="page-actions"><a class="button button-primary" href="album.html">Revisit the heart album ♡ <span>↗</span></a><a class="text-link" href="index.html">← Back to home</a></div>
+</section></main>
+  <footer class="site-footer">made with <span>♥</span> for a very special birthday <i>·</i> 11 October 2009</footer>
+  <script src="app.js"></script>
+</body>
+</html>

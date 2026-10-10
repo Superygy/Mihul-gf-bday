@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#372633">
+  <meta name="description" content="A little handmade birthday world full of memories, wishes and love.">
+  <title>The Secret Locket ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="locket" >
+  <div class="ambient-glow glow-one" aria-hidden="true"></div><div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <header class="topbar">
+  <nav class="nav-shell" aria-label="Birthday website navigation">
+    <a class="brand" href="index.html" aria-label="Birthday home"><span class="brand-mark">♡</span><span>BDAY <i>WORLD</i></span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link home-link">⌂ Home</a>
+      <a href="countdown.html" class="nav-link" data-nav="countdown">🎂 Countdown</a>
+      <a href="gift.html" class="nav-link" data-nav="gift">🎁 Gift</a>
+      <a href="locket.html" class="nav-link" data-nav="locket">💗 Locket</a>
+      <a href="letter.html" class="nav-link" data-nav="letter">💌 Letter</a>
+      <a href="album.html" class="nav-link" data-nav="album">♡ Heart Album</a>
+      <a href="game.html" class="nav-link" data-nav="game">🎮 Game</a>
+    </div>
+  </nav>
+  <div class="nav-hint" id="navHint">Discover a chapter and it will stay in this menu ✨</div>
+</header>
+  <main class="page-wrap">
+<section class="content-width inner-page locket-page">
+  <div class="page-heading"><p class="eyebrow">CHAPTER 03 · A KEEPSAKE</p><h1>A little heart to keep <span class="script-title">close to yours</span> ♡</h1><p>Open the pendant to reveal one special photo, then continue to a little birthday letter written just for you.</p></div>
+  <section class="glass-panel locket-panel">
+    <div class="chain-line" aria-hidden="true"></div>
+    <div class="locket-scene" id="locketScene" aria-label="A closed, rose-gold heart locket">
+      <div class="locket-back">
+        <svg class="full-heart-metal" viewBox="0 0 400 350" aria-hidden="true"><defs><linearGradient id="metalBase" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0c9"/><stop offset=".23" stop-color="#e9a5a8"/><stop offset=".52" stop-color="#bd697f"/><stop offset=".76" stop-color="#f6c99b"/><stop offset="1" stop-color="#9d536b"/></linearGradient></defs><path d="M200 322 C153 280 42 212 30 132 C18 58 104 22 200 94 C296 22 382 58 370 132 C358 212 247 280 200 322Z" fill="url(#metalBase)" stroke="#ffeac4" stroke-width="9"/><path d="M200 299 C160 263 68 207 58 138 C50 93 111 58 200 118 C289 58 350 93 342 138 C332 207 240 263 200 299Z" fill="none" stroke="#fff0cc" stroke-width="4" opacity=".8"/></svg>
+  
+      </div>
+      <div class="locket-inner-photo" aria-label="Photo revealed inside the opened locket">
+        <img class="media-image" src="assets/locket/locket.jpeg" alt="The special photo inside the heart locket" data-placeholder="insidePhotoPlaceholder">
+        <div class="image-placeholder" id="insidePhotoPlaceholder"><span>♡</span><b>Your special photo goes here</b><small>assets/locket/inside-photo.jpg</small></div>
+        <span class="photo-caption">a little moment, forever ♡</span>
+      </div>
+      <div class="locket-wing wing-left" aria-hidden="true"><svg viewBox="0 0 200 350"><defs><linearGradient id="leftGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2c9"/><stop offset=".26" stop-color="#eaa8ab"/><stop offset=".55" stop-color="#c47a8d"/><stop offset=".79" stop-color="#ffe2b1"/><stop offset="1" stop-color="#b7657b"/></linearGradient></defs><path d="M200 105 C190 94 175 82 160 71 C91 18 14 60 28 130 C42 210 152 278 200 320 Z" fill="url(#leftGold)" stroke="#ffecc2" stroke-width="6"/><path d="M197 123 C181 99 164 92 145 81" fill="none" stroke="#fff6dd" stroke-width="4" stroke-linecap="round"/></svg></div>
+      <div class="locket-wing wing-right" aria-hidden="true"><svg viewBox="0 0 200 350"><defs><linearGradient id="rightGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2c9"/><stop offset=".26" stop-color="#eaa8ab"/><stop offset=".55" stop-color="#c47a8d"/><stop offset=".79" stop-color="#ffe2b1"/><stop offset="1" stop-color="#b7657b"/></linearGradient></defs><path d="M0 105 C10 94 25 82 40 71 C109 18 186 60 172 130 C158 210 48 278 0 320 Z" fill="url(#rightGold)" stroke="#ffecc2" stroke-width="6"/><path d="M3 123 C19 99 36 92 55 81" fill="none" stroke="#fff6dd" stroke-width="4" stroke-linecap="round"/></svg></div>
+      <span class="locket-pin" aria-hidden="true">♡</span><span class="locket-glimmer glimmer-a" aria-hidden="true">✦</span><span class="locket-glimmer glimmer-b" aria-hidden="true">✧</span>
+    </div>
+    <button class="button button-primary locket-open-btn" id="openLocket" type="button">♡ Open Locket</button>
+    <p class="locket-hint" id="locketHint" aria-live="polite">Tap to open the pendant — your photo will appear above the opened locket ✨</p>
+    <div class="locket-note" id="locketNote"><span>♡</span><p>Your little memory, held close to the heart. When you are ready, your birthday letter is next. ♡</p><a class="button button-soft" href="letter.html">Read your birthday letter next 💌</a></div>
+  </section>
+</section></main>
+  <footer class="site-footer">made with <span>♥</span> for a very special birthday <i>·</i> 11 October 2009</footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Put your chosen MP3 here and name it exactly: birthday-song.mp3
+Path: assets/music/birthday-song.mp3
+Then refresh and click the floating Play Music button.
